@@ -1,0 +1,109 @@
+*{
+    margin:0;
+    padding:0;
+    color:white;
+}
+
+body{
+    font-family:Helvetica;
+}
+
+.video-con{
+    width:100%;
+    height:100%;
+}
+
+video{
+    width:100%;
+    height:100%;
+
+}
+
+.container{
+    position:absolute;
+    top:0;
+    text-align: center;
+}
+
+#logo{
+    margin-top:40px;
+    margin-left:20px;
+}
+
+.btns{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:30px;
+    margin-top:30px;
+}
+
+.content{
+    width:30vw;
+    height:60vh;
+    background-color:rgba(0, 0,0 , 0.7);
+    box-shadow:0 0 20px 0 black;
+    margin-left:100%;
+    margin-top:20px;
+    border-radius:20px;
+    padding:20px;
+    color:black;
+    transition:all 0.2s ease;
+}
+
+.content:hover{
+    background-color:rgba(0,0,0,0.4);
+    transition:all 0.2s ease;
+}
+
+.content #screen{
+    height:80px;
+    width:90%;
+    margin-top:30px;
+    border-radius:20px;
+    border:none;
+    outline:none;
+    text-align:center;
+    font-size:50px;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.guess{
+    grid-column:span 2;
+}
+
+#gbtn{
+    width:220px;
+    border-radius:20px;
+    border:none;
+}
+
+button{
+    padding:20px;
+    width:60px;
+    height:60px;
+    border-radius:50%;
+    border:none;
+    background-color:rgba(255,255,255,0.5);
+    transition:all 0.3s ease;
+    box-shadow:0 0 3px 0 white;
+}
+
+button:hover{
+    background-color:rgba(0, 0,0 , 0.8);
+    transition:all 0.3s ease;
+    box-shadow:0 0 6px 0 white;
+}
+
+.footer{
+    width:20vw;
+    height:10vh;
+    background-color:rgba(0,0,0,0.7);
+    box-shadow:0 0 20px 0 black;
+    margin-left:120%;
+    margin-top:10px;
+    border-radius:20px;
+}
+
+.footer p{
+    padding:3px;
+}
